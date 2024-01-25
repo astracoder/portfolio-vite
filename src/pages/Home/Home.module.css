@@ -1,0 +1,58 @@
+.container {
+    width: 100%;
+    min-height: 87.5vh;
+    padding: 0rem 30rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__text {
+    font-size: 5rem;
+    line-height: 1;
+}
+
+.text__name {
+    color: var(--green-light);
+    font-size: 12rem;
+    font-family: "Dancing Script", cursive;
+}
+
+.container__button {
+    display: flex;
+    gap: 1rem;
+}
+
+.button__cta, .button__cv {
+    color: var(--green-400);
+    font-size: 1.8rem;
+    font-weight: 800;
+
+    width: 20rem;
+    height: 6rem;
+    border-radius: .5rem;
+    background: var(--green-light);
+    border: 0;
+    cursor: pointer;
+    margin-top: 6rem;
+    transition: .2s ease;
+}
+
+.button__cta:hover {
+    background: var(--green-600);
+}
+
+.button__cv {
+    color: var(--light);
+    background: var(--red);
+    width: 12rem;
+}
+
+.button__cv:hover {
+    background: var(--red-200);
+}
+
+.container__figure img {
+    height: 65rem;
+}

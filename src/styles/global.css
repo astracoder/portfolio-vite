@@ -1,15 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 :root {
+    --green-light: #6bc785;
     --green: #04D361;
     --green-200: #00ff73;
-    --orange: #ff4800;
-    --orange-200: #9c2c00;
-    --red: #be2121;
+    --green-400: #294B29;
+    --green-600: #3f9758;
+    --green-800: #789461;
+    --green-1000: #DBE7C9;
     --green-place: #66ff004d;
+    --red: #be2121;
+    --red-200: #8f0d0d;
     --dark: #0C0C0C;
     --dark-200: #2e2e2e;
     --dark-trans: #00000081;
+    --orange: #ff4800;
+    --orange-200: #9c2c00;
     --brown: #251209;
     --brown-200: #1d0d05;
     --light: #F9f9f9;
@@ -23,11 +30,19 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
+
+    font-size: 62.5%;
 }
 
 * {
+    color: var(--light);
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+
+html, body {
+    background: var(--dark);
+}
+

@@ -1,9 +1,33 @@
-@tailwind base;
-@tailwind utilities;
-@tailwind components;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
+:root {
+    --green: #04D361;
+    --green-200: #00ff73;
+    --orange: #ff4800;
+    --orange-200: #9c2c00;
+    --red: #be2121;
+    --green-place: #66ff004d;
+    --dark: #0C0C0C;
+    --dark-200: #2e2e2e;
+    --dark-trans: #00000081;
+    --brown: #251209;
+    --brown-200: #1d0d05;
+    --light: #F9f9f9;
+    --light-200: #bbbbbb;
+    --light-trans: #ffffff36;
+    --gray: #AEAEAE;
+    --gray-200: #525252;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }

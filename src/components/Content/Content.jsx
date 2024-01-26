@@ -1,6 +1,11 @@
-const Content = () => {
+import styles from './Container.module.css';
+
+// eslint-disable-next-line react/prop-types
+const Content = ({ children }) => {
     return (
-        <h1>Content</h1>
+        <section className={styles.container}>
+            { children }
+        </section>
     )
 }
 

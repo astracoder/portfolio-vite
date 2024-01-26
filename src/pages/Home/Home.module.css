@@ -37,6 +37,11 @@
     cursor: pointer;
     margin-top: 6rem;
     transition: .2s ease;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 .button__cta:hover {

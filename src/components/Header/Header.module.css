@@ -11,6 +11,8 @@
 
 .header__logo {
     font-size: 4rem;
+    font-weight: 400;
+    text-decoration: none;
 }
 
 .header__logo span {

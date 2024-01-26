@@ -1,4 +1,4 @@
-.container {
+.home {
     width: 100%;
     min-height: 87.5vh;
     padding: 0rem 30rem;
@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.container__text {
+.home__text {
     font-size: 5rem;
     line-height: 1;
 }
@@ -19,7 +19,7 @@
     font-family: "Dancing Script", cursive;
 }
 
-.container__button {
+.home__button {
     display: flex;
     gap: 1rem;
 }
@@ -58,6 +58,6 @@
     background: var(--red-200);
 }
 
-.container__figure img {
+.home__figure img {
     height: 65rem;
 }

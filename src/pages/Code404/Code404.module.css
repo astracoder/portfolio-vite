@@ -1,0 +1,40 @@
+.status {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.status__title {
+    font-size: 2rem;
+}
+
+.status__img {
+    margin: 5rem 0;
+    height: 45rem;
+}
+
+.status__btn {
+    color: var(--green-400);
+    font-size: 1.8rem;
+    font-weight: 800;
+
+    width: 20rem;
+    height: 6rem;
+    border-radius: .5rem;
+    background: var(--green-light);
+    border: 0;
+    cursor: pointer;
+    margin-top: 4rem;
+    transition: .2s ease;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.status__btn:hover {    
+    background: var(--green-600);
+}

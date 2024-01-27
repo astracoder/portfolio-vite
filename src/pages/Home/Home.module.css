@@ -1,6 +1,5 @@
 .home {
     width: 100%;
-    min-height: 87.5vh;
     padding: 0rem 30rem;
     
     display: flex;
@@ -19,6 +18,12 @@
     font-family: "Dancing Script", cursive;
 }
 
+.text__dev {
+    color: var(--light-200);
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
 .home__button {
     display: flex;
     gap: 1rem;
@@ -35,7 +40,7 @@
     background: var(--green-light);
     border: 0;
     cursor: pointer;
-    margin-top: 6rem;
+    margin-top: 4rem;
     transition: .2s ease;
 
     display: flex;

@@ -1,0 +1,30 @@
+.contacts {
+    text-align: center;
+}
+
+.contacts__title {
+    font-family: "Dancing Script", cursive;
+    font-size: 8rem;
+}
+
+.contacts__desc {
+    font-size: 2rem;
+    margin: 4rem 0;
+}
+
+.icons {
+    color: var(--green-light);
+}
+
+.icons:hover {
+    color: var(--green-600);
+}
+
+.contacts__icons {
+    font-size: 8rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}

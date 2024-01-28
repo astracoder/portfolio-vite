@@ -1,0 +1,40 @@
+.about {
+    width: 100%;
+}
+
+.about__bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.about__group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.about__group > img {
+    border-radius: 50%;
+    border: 1rem solid var(--green-light);
+}
+
+.about__group .bio__texts {
+    font-size: 2rem;
+}
+
+.bio__texts h3 > span {
+    color: var(--green-light);
+}
+
+.bio__texts h3:nth-child(2) {
+    color: var(--light-200);
+}
+
+
+.techs__icons img {
+    height: 10rem;
+}
